@@ -35,5 +35,5 @@ saving_private_rayan = media.Movie("Saving Private Rayan",
 #deadpool.show_trailer()
 
 movies = [toy_story, avatar, deadpool, hangover, spiderman, saving_private_rayan]
-index.open_movies_page(movies)
+Fresh_Tomatoes.open_movies_page(movies)
 #print(media.Movie.__module__)
