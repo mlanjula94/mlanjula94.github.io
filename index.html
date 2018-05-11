@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>Index</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
+
+    <nav class="z-1 navbar navbar-light bg-light">
         <div class="container">
             <span class="navbar-text h1">
                 Anjula Epasinghe
@@ -29,16 +31,17 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
+    <div id="particles-js" class="paralell particles-js"></div>
+    <div class="container particles-js">
+        <div class="row low_op">
             <img src="images/profile_pic.jpg" class="mt-5 rounded-circle mx-auto d-block w-25 h-25" alt="profile pic">
         </div>
-        <div class="row mt-5">
+        <div class="row mt-5 body">
 
             <div class="col-sm-6">
                 <!-- Content -->
                 <p class="h2 bg-info text-white">About me</p>
-                <p class="txt-info">After taking a computer programming class in college freshman year I fell in love with technology, which
+                <p class="text-white">After taking a computer programming class in college freshman year I fell in love with technology, which
                     made me change my major from Electrical Engineering to Computer Science. Currently I’m enrolled in Full
                     Stack web development bootcamp at Rutgers and I’m working hard to get better each day.In my spare time
                     I love reading about artificial intelligence and machine learning and solving problems in python and
@@ -49,9 +52,9 @@
             <div class="col-sm-2">
                 <!-- Content -->
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 body">
                 <p class="h2 bg-info text-white">Languges I know</p>
-                <ul>
+                <ul class="text-white">
                     <li>Html</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
@@ -66,10 +69,13 @@
             <hr>
         </div>
     </div>
+    </div>
 
     <footer class="container-fluid bg-dark text-center fixed-bottom">
         <p class="text-white">Copyright 2018 Anjula Epasinghe</p>
     </footer>
+    <script type="text/javascript" src="./particles.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
 
 </body>
 

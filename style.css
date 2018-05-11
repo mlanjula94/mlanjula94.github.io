@@ -1,3 +1,31 @@
-#cf6_image:hover {
-    background-image:url("/images/Turtle.jpg");
-  }
+
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  background: #262626;
+  z-index: -1;
+  position: absolute;
+}
+
+#particles-js {
+  height: 100%;
+  width: 100%;
+  background: #262626;
+  z-index: -1;
+  position: fixed;
+  top:0px;
+}
+
+
+
+
+#body{
+  background: #262626;
+  z-index: 1;
+  
+}
+
+.low_op{
+  opacity: 0.5;
+}
